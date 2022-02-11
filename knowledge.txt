@@ -1,0 +1,29 @@
+Design Pattern
+https://refactoring.guru/design-patterns
+
+The Best Web Services
+https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/
+https://medium.com/hashmapinc/rest-good-practices-for-api-design-881439796dc9
+
+OOP
+https://idcloudhost.com/panduan/mengenal-pengertian-dan-konsep-oop/
+
+SOLID
+https://riansyahtohamba.medium.com/prinsip-s-o-l-i-d-d842d21169e8
+
+Microservices
+https://indosystem.com/blog/microservices-konsep-dan-implementasi/
+
+Message Broker
+https://medium.com/skyshidigital/rabbitmq-di-nodejs-1fadbf5ad384
+https://medium.com/@acep.abdurohman90/messaging-dengan-message-broker-rabbitmq-dan-java-menggunakan-spring-framework-e0fb4e98a428
+
+Java Spring
+https://www.codepolitan.com/spring-boot-pengenalan-588da0c4bedd1
+https://daengweb.id/berkenalan-dengan-spring-boot
+
+GoLang
+http://blog.nostratech.com/2018/06/golang-rest-api-menggunakan-gin.html
+
+System Design Chat App
+https://systeminterview.com/design-a-chat-system.php

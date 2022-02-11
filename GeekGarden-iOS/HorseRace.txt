@@ -1,0 +1,45 @@
+Ada 25 kuda dengan berkecapatan berbeda, anda hanya bisa melihat perbedaan kecepatan kuda dengan mengadakan balapan kuda dan hanya bisa mengikut sertakan 5 kuda dalam 1 balapan. Anda tidak punya penghitung waktu, tapi anda bisa mengetahui dari mata Anda dalam 1 balapan siapa yang juara 1 sampai 5. Berapa banyak balapan yang anda harus gelarkan untuk mencari 3 kuda tercepat?
+Jawaban: 6 kali perlombaan
+Penjelasan: 
+> pertama kita buat group yang terdiri atas 5 kuda,
+Group 1
+1. Kuda A
+2. Kuda B
+3. Kuda C
+4. Kuda D
+5. Kuda E
+Group 2
+1. Kuda F
+2. Kuda G
+3. Kuda H
+4. Kuda I
+5. Kuda J
+Group 3
+1. Kuda K
+2. Kuda L
+3. Kuda M
+4. Kuda N
+5. Kuda O
+Group 4
+1. Kuda P
+2. Kuda Q
+3. Kuda R
+4. Kuda S
+5. Kuda T
+Group 5
+1. Kuda U
+2. Kuda V
+3. Kuda W
+4. Kuda X
+5. Kuda Y
+> masing masing group memiliki 1 perlombaan untuk menentukan siapa kuda tercepat dari setiap group. dalam kasus disini memiliki 5 group yang artinya ada 5 pertandingan.
+> setelah di pertandingkan ternyata pemenang dari setiap group adalah:
+Group 1: Kuda C
+Group 2: Kuda I
+Group 3: Kuda K
+Group 4: Kuda R
+Group 5: Kuda Y
+> maka pertandingan yang ke 6 adalah pertandingan untuk menentukan kuda tercepat. dari pertandingan tersebut kita dapat menentukan 3 kuda tercepat. misal yang tercepat adalah,
+1. Kuda K
+2. Kuda Y
+3. Kuda C
