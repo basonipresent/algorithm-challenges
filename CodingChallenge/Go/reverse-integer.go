@@ -1,5 +1,11 @@
 package main
 
+/**
+ * Reverse Integer
+ * Input: x = 123
+ * Output: 321
+ * Explanation: The reverse of 123 is 321.
+ */
 func reverse(x int) int {
 	rev := 0
 	for x != 0 {

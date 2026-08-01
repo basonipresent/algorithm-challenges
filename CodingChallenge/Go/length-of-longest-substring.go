@@ -1,5 +1,11 @@
 package main
 
+/**
+ * Length of Longest Substring
+ * Input: s = "abcabcbb"
+ * Output: 3
+ * Explanation: The answer is "abc", with the length of 3.
+ */
 func lengthOfLongestSubstring(s string) int {
 	runes := []rune(s)
 	left := 0

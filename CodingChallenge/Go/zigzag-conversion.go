@@ -1,5 +1,14 @@
 package main
 
+/**
+ * Zigzag Conversion
+ * Input: s = "PAYPALISHIRING", numRows = 3
+ * Output: "PAHNAPLSIIGYIR"
+ * Explanation: The string is written in a zigzag pattern on a given number of rows like this:
+ *              P   A   H   N
+ *              A P L S I I G
+ *              Y   I   R
+ */
 func convert(s string, numRows int) string {
 	if numRows == 1 || numRows >= len(s) {
 		return s
