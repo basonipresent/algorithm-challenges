@@ -1,7 +1,6 @@
-package CodilitySolutions.src;
 // Java program palindrome by swapping
 // only one character
-class GFG {
+class SwapPalindrome {
 
 	public static boolean isPalindromePossible(String input) {
 		char[] charStr = input.toCharArray();

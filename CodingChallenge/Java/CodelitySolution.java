@@ -61,12 +61,9 @@ public class CodelitySolution {
     }
 
     public int solution(int A, int B) {
-        // write your code in Java SE 8
-        String binary = "";
-        for (long i = (1L << B - 1); i > 0; i = i / 2) {
-            binary += (A & i) != 0 ? "1" : "0";
-        }
-        return Integer.parseInt(binary, 2);
+        // Original built a B-char binary string from A's low B bits then re-parsed
+        // it, which just reconstructs those same B bits: equivalent to a mask.
+        return (int) (A & ((1L << B) - 1));
     }
 
     public static String solution(int[] A) {

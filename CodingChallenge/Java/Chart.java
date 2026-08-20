@@ -19,7 +19,7 @@ public class Chart {
         }
     }
 
-    private Boolean isAestetic(int[] array) {
+    private boolean isAestetic(int[] array) {
         int newArrayLength = array.length;
         int increasingFlag = 0;
         for (int i = 0; i < newArrayLength; i++) {

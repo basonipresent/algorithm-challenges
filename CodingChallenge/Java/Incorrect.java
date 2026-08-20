@@ -1,5 +1,3 @@
-package CodilitySolutions.src;
-
 public class Incorrect {
     String solution(String S) {
         int[] occurrences = new int[26];

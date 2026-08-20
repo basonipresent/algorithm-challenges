@@ -1,5 +1,3 @@
-package CodilitySolutions.src;
-
 public class CodilityTestCoders {
     public void solution(int N) {
         // write your code in Java SE 8

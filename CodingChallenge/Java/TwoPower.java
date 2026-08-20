@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class TwoPower {
     final static Scanner scan = new Scanner(System.in);
     final static String fileName = System.getenv("OUTPUT_PATH");
     
@@ -12,16 +12,20 @@ public class Solution {
      * Write the regular expression in the blank space below
      */
     final static String regularExpression = "^0*10*$";
-    
+
+    public static boolean isPowerOfTwoBinary(String s) {
+        return s.matches(regularExpression);
+    }
+
     public static void main(String[] args) throws IOException {
         int query = Integer.parseInt(scan.nextLine());
         String[] result = new String[query];
         Arrays.fill(result, "False");
-        
+
         for (int i = 0; i < query; i++) {
             String someString = scan.nextLine();
-            
-            if (someString.matches(regularExpression)) {
+
+            if (isPowerOfTwoBinary(someString)) {
                 result[i] = "True";
             }
         }

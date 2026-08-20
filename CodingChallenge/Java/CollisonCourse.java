@@ -1,4 +1,6 @@
-public class collison_course {
+import java.util.List;
+
+public class CollisonCourse {
   static int collision(List<Integer> speed, int pos) {
     int collisionPos = pos + speed.get(pos) - 1;
     int collisionCount = 0;

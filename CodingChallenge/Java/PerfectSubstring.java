@@ -12,7 +12,7 @@ import static java.util.stream.Collectors.toList;
 
 
 
-class Result {
+class PerfectSubstringResult {
 
     /*
      * Complete the 'perfectSubstring' function below.
@@ -54,7 +54,7 @@ class Result {
         return res;
     }
 }
-public class Solution {
+public class PerfectSubstring {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
@@ -63,7 +63,7 @@ public class Solution {
 
         int k = Integer.parseInt(bufferedReader.readLine().trim());
 
-        int result = Result.perfectSubstring(s, k);
+        int result = PerfectSubstringResult.perfectSubstring(s, k);
 
         bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();
