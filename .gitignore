@@ -22,7 +22,7 @@ replay_pid*
 *.iws
 
 ### Visual Studio Code ###
-.vscode/*
+.vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -31,3 +31,5 @@ replay_pid*
 .history/
 .ionide
 *.vsix
+
+go.work
